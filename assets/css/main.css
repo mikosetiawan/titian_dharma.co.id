@@ -1,0 +1,301 @@
+
+/* header */
+.main-nav {
+    background-color: #A663CC;
+}
+
+.main-nav .navbar-nav a.nav-link {
+    color: #fff;
+    font-weight: 600;
+}
+
+.main-nav .dropdown-menu a {
+    color: #A663CC;
+    font-weight: 600;
+
+}
+
+.main-nav .navbar-nav .nav-link.active,
+.main-nav .navbar-nav .nav-link:hover {
+    color: #FFEA00;
+}
+
+.navbar.scrolled {
+    background-color: #fff;
+    transition: background-color 0.5s ease;
+}
+
+.navbar.scrolled a.nav-link {
+    color: #A663CC;
+}
+
+.navbar img.main-logo {
+    max-width: 50px;
+}
+
+/* untuk Global */
+.main-ungu {
+    background-color: #A663CC;
+    color: #fff;
+}
+
+.main-ungu h2 span {
+    color: #FFEA00;
+}
+
+button.btn-warning {
+    background-color: #FFEA00;
+    font-weight: 600;
+    border: none;
+}
+
+p.main-judul::after {
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    border-bottom: 3px solid #FFEA00;
+    width: 100px;
+    content: "";
+    border-radius: 5px;
+
+}
+
+h1.main-judul::after {
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    border-bottom: 3px solid #FFEA00;
+    width: 100px;
+    content: "";
+    border-radius: 5px;
+
+}
+
+h2.main-judul::after {
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    border-bottom: 3px solid #A663CC;
+    width: 100px;
+    content: "";
+    border-radius: 5px;
+
+}
+h2.main-judul-2::after {
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 0px;
+    display: block;
+    border-bottom: 3px solid #A663CC;
+    width: 100px;
+    content: "";
+    border-radius: 5px;
+
+}
+h5.main-judul-3::after {
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 0px;
+    display: block;
+    border-bottom: 3px solid #fff;
+    width: 100px;
+    content: "";
+    border-radius: 5px;
+
+}
+
+h3.main-judul::after {
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    border-bottom: 3px solid #A663CC;
+    width: 100px;
+    content: "";
+    border-radius: 5px;
+
+}
+
+.font-bold {
+    font-weight: bold;
+}
+/* background page */
+.main-oren-bg {
+    background-color: #FFEA00;
+}
+.main-abu-bg {
+    background-color: #f8fdff;
+}
+.main-ungu-bg {
+    background-color: #A663CC;
+}
+.bg-abu2{
+    background-color: #eaeff1;
+}
+
+/* untuk kolaborasi */
+#main-kolaborasi img {
+    max-height: 50px;
+    max-width: 150px;
+}
+
+#main-kolaborasi a {
+    display: inline-block;
+    word-spacing: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+
+/* halaman konsultasi order */
+#main-konsultasi img.main-logo {
+    width: 150px;
+    height: auto;
+}
+
+#main-konsultasi .form-text a.main-text-pass {
+    text-decoration: none;
+    color: #8e8c90;
+}
+
+#main-konsultasi .form-text a.main-text-pass:hover {
+    color: #A663CC;
+}
+
+#main-konsultasi .main-color {
+    background-color: #A663CC;
+}
+
+#main-konsultasi h1.color-text {
+    color: #FFEA00;
+    font-weight: bold;
+}
+
+#main-konsultasi .main-image {
+    width: 350px;
+    height: auto;
+}
+
+/* ini icon */
+img.size-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+img.size-icon:hover {
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+img.size-icon-md {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+img.size-icon-md:hover {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+/* button */
+
+a.btn-oren {
+    background-color: #FFEA00;
+    color: #252425;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    width: 100%;
+    border-radius: 5px;
+}
+a.btn-oren:hover{
+    background-color: #ffc800;
+}
+button.btn-oren {
+    background-color: #FFEA00;
+    color: #252425;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    width: 100%;
+    border-radius: 5px;
+}
+button.btn-oren:hover{
+    background-color: #ffc800;
+}
+a.btn-ungu {
+    background-color: #A663CC;
+    color: #ffff;
+    font-weight: 600;
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+}
+a.btn-ungu:hover{
+    background-color: #9341c2;
+}
+button.btn-ungu {
+    background-color: #A663CC;
+    color: #ffff;
+    font-weight: 600;
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+}
+button.btn-ungu:hover{
+    background-color: #9341c2;
+}
+button.btn-oren-btn{
+    background-color: #FFEA00;
+    padding: 10px;
+    width: 100%;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+button.btn-oren-btn:hover{
+    background-color: #ffc800;
+}
+
+/* img card */
+.size-img-card{
+    height: 416px;
+}
+#layanan .card-hover:hover{
+    width: 548px;
+    height: auto;
+}
+
+/* psikoterapi */
+.size-img-custom{
+    width: 400px;
+    height: auto;
+}
+.size-img-training{
+    width: 550px;
+    height: auto;
+}
+.size-img-footer{
+    width: 300px;
+    margin-top: -40px;
+    height: auto;
+}
+
+/* Detail */
+/* .pdf-style{
+    padding: 1px 1px;
+    border-radius: 5px;
+} */
+
+/* LOGIN */

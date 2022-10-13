@@ -1,0 +1,26 @@
+<?php 
+include 'koneksi.php';
+if (isset($_GET['id'])) {
+	if ($_GET['id'] != "") {
+		
+		// Mengambil ID diURL
+		$id = $_GET['id'];
+
+		// Mengapus data siswa berdasarkan ID
+		$query = mysqli_query($conn,"DELETE FROM tb_konsultasi WHERE idKonsultasi='$id'");
+		if ($query) {
+			header("location:../../dashboard.php?pesan=hapus");
+		}else{
+			header("location:../dashboard.php?pesan=gagalhapus");
+		}
+		
+	}else{
+		// Apabila ID nya kosong maka akan dikembalikan kehalaman index
+		header("location:../../dashboard.php");
+	}
+}else{
+	// Jika tidak ada Data ID maka akan dikembalikan kehalaman index
+	header("location:../../dashboard.php");
+}
+
+?>
